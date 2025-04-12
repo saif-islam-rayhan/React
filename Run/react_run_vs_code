@@ -1,0 +1,21 @@
+step1:
+npm create vite@latest
+
+step2:
+ Project name:
+│  my-second-project
+│
+◇  Select a framework:
+│  React
+│
+◇  Select a variant:
+│  JavaScript
+
+step3:
+cd my-second-project/
+
+step4:
+ npm i
+
+step5:
+ npm run dev
