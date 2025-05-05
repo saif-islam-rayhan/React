@@ -1,0 +1,17 @@
+step1:
+npm create vite@latest my-project -- --template react
+cd my-project
+step2:
+npm install -D tailwindcss@3 postcss autoprefixer
+npx tailwindcss init -p
+step 3:(tailwind.config.js)
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+step 4:(index.css)
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+step 5:
+npm run dev
